@@ -1,0 +1,226 @@
+.hero {
+  padding: 80px 20px 100px;
+  background: #0a0a0a;
+  position: relative;
+  overflow: hidden;
+  min-height: 100vh;
+}
+
+.hero::before {
+  content: '';
+  position: absolute;
+  top: 30%;
+  right: -5%;
+  width: 600px;
+  height: 600px;
+  background: radial-gradient(ellipse, rgba(80, 100, 60, 0.3) 0%, rgba(60, 80, 40, 0.15) 40%, transparent 70%);
+  pointer-events: none;
+  filter: blur(80px);
+}
+
+.hero-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+}
+
+/* Large Name */
+.hero-name {
+  font-size: 10rem;
+  font-weight: 800;
+  line-height: 1;
+  margin-bottom: 30px;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+}
+
+.hero-name span {
+  color: #ffffff;
+}
+
+/* Skills Row */
+.hero-skills {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  margin-bottom: 60px;
+  flex-wrap: wrap;
+}
+
+.skill-tag {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #888888;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  transition: color 0.3s ease;
+}
+
+.skill-tag:hover {
+  color: var(--primary-color);
+}
+
+/* Hero Content - Image and Text */
+.hero-content {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  gap: 60px;
+  align-items: flex-end;
+}
+
+.hero-image {
+  position: relative;
+}
+
+.image-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.dotted-bg {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 300px;
+  height: 280px;
+  background-image: radial-gradient(circle, #333333 1px, transparent 1px);
+  background-size: 8px 8px;
+  opacity: 0.8;
+  z-index: 0;
+}
+
+.image-placeholder {
+  width: 380px;
+  height: 450px;
+  background: linear-gradient(180deg, transparent 0%, rgba(10, 10, 10, 0.8) 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-light);
+  font-size: 1rem;
+  font-weight: 600;
+  position: relative;
+  z-index: 1;
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-bottom: 40px;
+}
+
+.hero-bio {
+  font-size: 1.15rem;
+  color: #999999;
+  margin-bottom: 40px;
+  line-height: 1.8;
+  max-width: 600px;
+}
+
+.hero-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  width: fit-content;
+  padding: 16px 28px;
+  font-size: 1.2rem;
+  font-weight: 500;
+  border-radius: 12px;
+}
+
+.hero-cta .cta-arrow {
+  transition: transform 0.3s ease;
+}
+
+.hero-cta:hover .cta-arrow {
+  transform: translate(3px, -3px);
+}
+
+@media (max-width: 1200px) {
+  .hero-name {
+    font-size: 7rem;
+    gap: 40px;
+  }
+
+  .hero-skills {
+    gap: 50px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .hero {
+    padding: 60px 20px 80px;
+    min-height: auto;
+  }
+
+  .hero-name {
+    font-size: 5rem;
+    gap: 30px;
+  }
+
+  .hero-content {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .hero-image {
+    display: flex;
+    justify-content: center;
+  }
+
+  .hero-skills {
+    gap: 30px;
+    margin-bottom: 40px;
+  }
+
+  .skill-tag {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero {
+    padding: 40px 20px 60px;
+  }
+
+  .hero-name {
+    font-size: 3rem;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .hero-skills {
+    gap: 20px;
+  }
+
+  .skill-tag {
+    font-size: 0.8rem;
+  }
+
+  .hero-bio {
+    font-size: 1rem;
+    max-width: 100%;
+  }
+
+  .image-placeholder {
+    width: 280px;
+    height: 340px;
+  }
+
+  .dotted-bg {
+    width: 200px;
+    height: 200px;
+  }
+
+  .hero-cta {
+    font-size: 1rem;
+    padding: 14px 22px;
+  }
+}

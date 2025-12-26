@@ -1,0 +1,123 @@
+.contact {
+  padding: 120px 20px;
+  background-color: #0a0a0a;
+  position: relative;
+  overflow: hidden;
+}
+
+.contact::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  width: 700px;
+  height: 500px;
+  background: radial-gradient(ellipse, rgba(80, 60, 0, 0.4) 0%, rgba(50, 40, 0, 0.2) 30%, rgba(30, 25, 0, 0.1) 50%, transparent 70%);
+  pointer-events: none;
+  filter: blur(60px);
+}
+
+.contact-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 60px;
+  position: relative;
+  z-index: 1;
+}
+
+.contact-left {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contact-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.section-icon {
+  font-size: 1.2rem;
+  color: var(--primary-color);
+}
+
+.header-text {
+  font-size: 1rem;
+  color: #ffffff;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+}
+
+.contact-title {
+  font-size: 3.8rem;
+  font-weight: 500;
+  line-height: 1.15;
+  margin: 0;
+  color: #ffffff;
+  letter-spacing: 0.02em;
+}
+
+.contact-right {
+  flex-shrink: 0;
+  padding-bottom: 10px;
+}
+
+.contact-cta {
+  white-space: nowrap;
+  padding: 14px 24px;
+  font-size: 1.25rem;
+  font-weight: 500;
+  border-radius: 12px;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.cta-arrow {
+  transition: transform 0.3s ease;
+}
+
+.contact-cta:hover .cta-arrow {
+  transform: translate(3px, -3px);
+}
+
+@media (max-width: 1024px) {
+  .contact {
+    padding: 80px 20px;
+  }
+
+  .contact-container {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+  }
+
+  .contact-title {
+    font-size: 2.8rem;
+  }
+
+  .contact-right {
+    padding-bottom: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .contact {
+    padding: 60px 20px;
+  }
+
+  .contact-title {
+    font-size: 2rem;
+  }
+
+  .contact::before {
+    width: 400px;
+    height: 300px;
+    left: 20%;
+  }
+}
