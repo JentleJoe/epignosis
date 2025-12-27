@@ -1,5 +1,3 @@
-import './Education.css';
-
 const Education = () => {
   const educationItems = [
     {
@@ -29,22 +27,25 @@ const Education = () => {
   ];
 
   return (
-    <section className="education">
-      <div className="education-wrapper">
-        <div className="education-header">
-          <span className="section-icon">✦</span>
-          <h2>Education</h2>
+    <section className="py-[100px] px-5 bg-black relative max-lg:py-20 max-md:py-[60px]">
+      <div className="max-w-[1200px] mx-auto">
+        <div className="flex items-center gap-3 mb-[60px]">
+          <span className="text-xl text-primary">✦</span>
+          <h2 className="text-[1.3rem] text-white font-semibold tracking-[0.05em] m-0 max-md:text-[1.1rem]">Education</h2>
         </div>
 
-        <div className="education-list">
-          {educationItems.map((item) => (
-            <div key={item.id} className="education-item">
-              <div className="education-header-row">
-                <div className="education-info">
-                  <h3 className="education-degree">{item.degree}</h3>
-                  <p className="education-institution">{item.institution}</p>
+        <div className="max-w-[680px] flex flex-col border border-[#333333] rounded-lg overflow-hidden max-md:max-w-full">
+          {educationItems.map((item, index) => (
+            <div 
+              key={item.id} 
+              className={`p-[35px] transition-all duration-300 bg-[rgba(10,10,10,0.5)] hover:bg-[rgba(255,215,0,0.05)] max-md:p-[25px] ${index !== educationItems.length - 1 ? 'border-b border-[#333333]' : ''}`}
+            >
+              <div className="flex justify-between items-start gap-5 max-md:flex-col max-md:gap-3">
+                <div className="flex-1">
+                  <h3 className="text-[1.4rem] font-bold text-white m-0 mb-2 tracking-[0.01em] max-lg:text-[1.2rem] max-md:text-[1.1rem]">{item.degree}</h3>
+                  <p className="text-[#a0a0a0] text-[0.95rem] m-0 font-medium max-md:text-[0.9rem]">{item.institution}</p>
                 </div>
-                <span className="education-period">{item.period}</span>
+                <span className="bg-[rgba(255,215,0,0.15)] text-primary py-1.5 px-3.5 rounded font-bold text-[0.85rem] whitespace-nowrap tracking-[0.03em] shrink-0 max-md:self-start">{item.period}</span>
               </div>
             </div>
           ))}

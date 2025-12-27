@@ -9,7 +9,6 @@ import Services from './components/sections/Services'
 import Portfolio from './components/sections/Portfolio'
 import FAQ from './components/sections/FAQ'
 import Contact from './components/sections/Contact'
-import './styles/globals.css'
 
 function App() {
   return (
