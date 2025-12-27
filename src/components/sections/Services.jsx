@@ -54,7 +54,7 @@ const Services = () => {
   return (
     <section className="py-[100px] px-5 bg-black relative max-lg:py-20 max-md:py-[60px]">
       {/* Header Section */}
-      <div className="max-w-[1400px] mx-auto mb-20 grid grid-cols-2 gap-[100px] items-start max-lg:grid-cols-1 max-lg:gap-[50px] max-lg:mb-[60px] max-md:gap-10 max-md:mb-[50px]">
+      <div className="max-w-[1200px] mx-auto mb-20 grid grid-cols-2 gap-[100px] items-start max-lg:grid-cols-1 max-lg:gap-[50px] max-lg:mb-[60px] max-md:gap-10 max-md:mb-[50px]">
         <div className="flex flex-col gap-10">
           <div className="flex items-center gap-3">
             <span className="text-xl text-primary">✦</span>
@@ -74,7 +74,7 @@ const Services = () => {
       </div>
 
       {/* Services Container */}
-      <div className="max-w-[1400px] mx-auto grid grid-cols-2 gap-[100px] items-start max-lg:grid-cols-1 max-lg:gap-[50px] max-md:gap-10">
+      <div className="max-w-[1200px] mx-auto grid grid-cols-2 gap-[100px] items-start max-lg:grid-cols-1 max-lg:gap-[50px] max-md:gap-10">
         <div className="flex flex-col gap-[30px]">
           <div className="flex flex-col gap-6">
             {services.map((service) => (

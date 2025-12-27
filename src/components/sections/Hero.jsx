@@ -8,7 +8,7 @@ const Hero = () => {
       {/* Background glow */}
       <div className="absolute top-[30%] right-[-5%] w-[600px] h-[600px] pointer-events-none blur-[80px] bg-[radial-gradient(ellipse,rgba(80,100,60,0.3)_0%,rgba(60,80,40,0.15)_40%,transparent_70%)]"></div>
       
-      <div className="max-w-[1400px] mx-auto relative z-[1]">
+      <div className="max-w-[1200px] mx-auto relative z-[1]">
         {/* Large Name */}
         <h1 className="text-[10rem] font-extrabold leading-none mb-[30px] tracking-[0.02em] text-white uppercase text-center flex justify-center gap-[60px] max-xl:text-[7rem] max-xl:gap-10 max-lg:text-[5rem] max-lg:gap-[30px] max-md:text-[3rem] max-md:flex-col max-md:gap-2.5">
           DAVID <span>MICHEL</span>

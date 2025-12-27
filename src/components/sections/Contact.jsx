@@ -6,7 +6,7 @@ const Contact = () => {
       {/* Gradient glow effect */}
       <div className="absolute top-1/2 left-1/4 -translate-x-1/2 -translate-y-1/2 w-[700px] h-[500px] pointer-events-none blur-[60px] max-md:w-[400px] max-md:h-[300px] max-md:left-[20%]" style={{ background: 'radial-gradient(ellipse, rgba(80, 60, 0, 0.4) 0%, rgba(50, 40, 0, 0.2) 30%, rgba(30, 25, 0, 0.1) 50%, transparent 70%)' }}></div>
       
-      <div className="max-w-[1400px] mx-auto flex justify-between items-end gap-[60px] relative z-[1] max-lg:flex-col max-lg:items-start max-lg:gap-10">
+      <div className="max-w-[1200px] mx-auto flex justify-between items-end gap-[60px] relative z-[1] max-lg:flex-col max-lg:items-start max-lg:gap-10">
         <div className="flex flex-col gap-5">
           <div className="flex items-center gap-3">
             <span className="text-[1.2rem] text-primary">✦</span>

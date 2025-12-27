@@ -10,7 +10,7 @@ const FAQ = () => {
 
   return (
     <section className="py-[100px] px-5 bg-gradient-to-br from-dark-surface to-dark-bg relative max-lg:py-20 max-md:py-[60px]" id="faq">
-      <div className="max-w-[1400px] mx-auto grid grid-cols-[1fr_1.5fr] gap-[100px] items-start max-lg:grid-cols-1 max-lg:gap-[60px] max-md:gap-10">
+      <div className="max-w-[1200px] mx-auto grid grid-cols-[1fr_1.5fr] gap-[100px] items-start max-lg:grid-cols-1 max-lg:gap-[60px] max-md:gap-10">
         {/* Left - Header */}
         <div className="flex flex-col gap-[30px]">
           <div className="flex items-center gap-3">
