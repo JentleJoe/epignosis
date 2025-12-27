@@ -4,9 +4,9 @@ import Hero from './components/sections/Hero'
 import About from './components/sections/About'
 import Experience from './components/sections/Experience'
 import Education from './components/sections/Education'
-import Projects from './components/sections/Projects'
+// import Projects from './components/sections/Projects'
 import Services from './components/sections/Services'
-import Portfolio from './components/sections/Portfolio'
+// import Portfolio from './components/sections/Portfolio'
 import FAQ from './components/sections/FAQ'
 import Contact from './components/sections/Contact'
 
@@ -19,9 +19,9 @@ function App() {
         <About />
         <Experience />
         <Education />
-        <Projects />
+        {/* <Projects /> */}
         <Services />
-        <Portfolio />
+        {/* <Portfolio /> */}
         <FAQ />
         <Contact />
       </main>

@@ -27,7 +27,7 @@ const Education = () => {
   ];
 
   return (
-    <section className="py-[100px] px-5 bg-black relative max-lg:py-20 max-md:py-[60px]">
+    <section className="py-[100px] px-5 bg-gradient-to-br from-dark-surface to-dark-bg relative max-lg:py-20 max-md:py-[60px]">
       <div className="max-w-[1200px] mx-auto">
         <div className="flex items-center gap-3 mb-[60px]">
           <span className="text-xl text-primary">✦</span>

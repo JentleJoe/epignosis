@@ -24,7 +24,7 @@ const Experience = () => {
   ];
 
   return (
-    <section className="py-[100px] px-5 bg-black relative max-lg:py-20 max-md:py-[60px]">
+    <section className="py-[100px] px-5 bg-gradient-to-br from-dark-surface to-dark-bg relative max-lg:py-20 max-md:py-[60px]">
       {/* Header */}
       <div className="max-w-[1200px] mx-auto mb-20 flex items-center gap-3">
         <span className="text-xl text-primary">✦</span>
