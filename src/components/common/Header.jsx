@@ -14,9 +14,9 @@ const Header = ({ onNavClick }) => {
   const navLinks = [
     { id: '01', href: '#home', label: 'HOME', isActive: true },
     { id: '02', href: '#about', label: 'ABOUT', isActive: false },
-    { id: '03', href: '#services', label: 'SERVICES', isActive: false },
-    { id: '04', href: '#projects', label: 'PROJECTS', isActive: false },
-    { id: '05', href: '#contact', label: 'CONTACT', isActive: false },
+    { id: '03', href: '#experience', label: 'EXPERIENCE', isActive: false },
+    { id: '04', href: '#education', label: 'EDUCATION', isActive: false },
+    { id: '05', href: '#services', label: 'SERVICES', isActive: false },
   ];
 
   return (

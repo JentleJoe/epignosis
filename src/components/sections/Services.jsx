@@ -52,7 +52,7 @@ const Services = () => {
   const expandedService = services.find(s => s.id === expandedId);
 
   return (
-    <section className="py-[100px] px-5 bg-black relative max-lg:py-20 max-md:py-[60px]">
+    <section id="services" className="py-[100px] px-5 bg-black relative max-lg:py-20 max-md:py-[60px]">
       {/* Header Section */}
       <div className="max-w-[1200px] mx-auto mb-20 grid grid-cols-2 gap-[100px] items-start max-lg:grid-cols-1 max-lg:gap-[50px] max-lg:mb-[60px] max-md:gap-10 max-md:mb-[50px]">
         <div className="flex flex-col gap-10">

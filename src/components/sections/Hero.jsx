@@ -4,7 +4,7 @@ const Hero = () => {
   const skills = ['BRANDING', 'UI/UX DESIGN', 'DEVELOPMENT', 'WEB DESIGN'];
 
   return (
-    <section className="py-[100px] px-5 pb-[100px] bg-[#0a0a0a] relative overflow-hidden min-h-screen max-lg:py-20 max-lg:pb-[80px] max-lg:min-h-auto max-md:py-[60px] max-md:pb-[60px]">
+    <section id="home" className="py-[100px] px-5 pb-[100px] bg-[#0a0a0a] relative overflow-hidden min-h-screen max-lg:py-20 max-lg:pb-[80px] max-lg:min-h-auto max-md:py-[60px] max-md:pb-[60px]">
       {/* Background glow */}
       <div className="absolute top-[30%] right-[-5%] w-[600px] h-[600px] pointer-events-none blur-[80px] bg-[radial-gradient(ellipse,rgba(80,100,60,0.3)_0%,rgba(60,80,40,0.15)_40%,transparent_70%)]"></div>
       
