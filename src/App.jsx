@@ -1,5 +1,6 @@
 import Header from './components/common/Header'
 import Footer from './components/common/Footer'
+import FloatingParticles from './components/common/FloatingParticles'
 import Hero from './components/sections/Hero'
 import About from './components/sections/About'
 import Experience from './components/sections/Experience'
@@ -13,6 +14,7 @@ import Contact from './components/sections/Contact'
 function App() {
   return (
     <div className="app">
+      <FloatingParticles count={15} />
       <Header />
       <main>
         <Hero />

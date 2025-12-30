@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { portfolioData } from '../../data/portfolioData';
+import AnimatedSection from '../common/AnimatedSection';
 
 const FAQ = () => {
   const [openId, setOpenId] = useState(1);
@@ -12,18 +13,21 @@ const FAQ = () => {
     <section className="py-[100px] px-5 bg-gradient-to-br from-dark-surface to-dark-bg relative max-lg:py-20 max-md:py-[60px]" id="faq">
       <div className="max-w-[1200px] mx-auto grid grid-cols-[1fr_1.5fr] gap-[100px] items-start max-lg:grid-cols-1 max-lg:gap-[60px] max-md:gap-10">
         {/* Left - Header */}
-        <div className="flex flex-col gap-[30px]">
-          <div className="flex items-center gap-3">
-            <span className="text-xl text-primary">✦</span>
-            <span className="text-base text-[#a0a0a0] font-medium tracking-[0.05em] uppercase">Support</span>
+        <AnimatedSection animation="fadeRight" duration={600}>
+          <div className="flex flex-col gap-[30px]">
+            <div className="flex items-center gap-3">
+              <span className="text-xl text-primary">✦</span>
+              <span className="text-base text-[#a0a0a0] font-medium tracking-[0.05em] uppercase">Support</span>
+            </div>
+            <h2 className="text-5xl font-bold text-white m-0 leading-[1.2] tracking-[0.01em] max-lg:text-[2.5rem] max-md:text-[2rem]">FAQS</h2>
+            <p className="text-base text-[#999999] leading-[1.8] m-0 max-w-[350px]">Not sure yet? Have some questions? We listed the ones most frequently asked.</p>
           </div>
-          <h2 className="text-5xl font-bold text-white m-0 leading-[1.2] tracking-[0.01em] max-lg:text-[2.5rem] max-md:text-[2rem]">FAQS</h2>
-          <p className="text-base text-[#999999] leading-[1.8] m-0 max-w-[350px]">Not sure yet? Have some questions? We listed the ones most frequently asked.</p>
-        </div>
+        </AnimatedSection>
 
         {/* Right - FAQ Items */}
-        <div className="flex flex-col">
-          <div className="flex flex-col w-full">
+        <AnimatedSection animation="fadeLeft" delay={100} duration={700}>
+          <div className="flex flex-col">
+            <div className="flex flex-col w-full">
             {portfolioData.faqs.map((faq, index) => (
               <div key={faq.id}>
                 <div 
@@ -49,8 +53,9 @@ const FAQ = () => {
                 {index === 2 && <div className="h-px bg-[#333333] m-0 w-full"></div>}
               </div>
             ))}
+            </div>
           </div>
-        </div>
+        </AnimatedSection>
       </div>
     </section>
   );
