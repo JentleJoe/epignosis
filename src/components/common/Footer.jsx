@@ -82,8 +82,21 @@ const Footer = () => {
             <div className="w-9 h-9 rounded-full bg-gradient-to-br from-primary to-[#f0c000]"></div>
             <span className="text-xl font-semibold text-white">PortFoliyo</span>
           </div>
-          <div className="text-[#666666] text-[0.85rem] text-center leading-relaxed">
-            ©2025 Usergency All<br />rights reserved.
+          <div className="text-center">
+            <div className="text-[#666666] text-[0.85rem] leading-relaxed">
+              ©2025 Usergency All rights reserved.
+            </div>
+            <div className="mt-2 text-[0.9rem] text-[#a0a0a0]">
+              Built by{' '}
+              <a 
+                href="https://joshuaoseghale.vercel.app/" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-primary font-semibold hover:underline transition-all duration-300 hover:text-[#f0c000]"
+              >
+                Joshua Oseghale
+              </a>
+            </div>
           </div>
           <div className="flex flex-col items-end gap-1 max-md:items-center">
             <span className="text-white text-[0.9rem] font-medium">{formatTime(currentTime)}</span>
