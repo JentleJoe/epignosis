@@ -50,7 +50,11 @@ const About = () => {
             <div className="bg-[rgba(20,20,20,0.8)] border border-[#333333] rounded-2xl p-0 w-full max-w-[380px] overflow-hidden backdrop-blur-[10px] transition-all duration-500 hover:border-primary/50 hover:shadow-[0_0_30px_rgba(255,215,0,0.1)] group">
               <div className="relative w-full aspect-square flex items-center justify-center bg-gradient-to-br from-[#0a0a0a] to-[#1a1a1a]">
                 <div className="w-full h-full bg-gradient-to-br from-[rgba(255,215,0,0.08)] to-[rgba(0,217,255,0.08)] flex items-center justify-center border-b border-[#333333] text-[#666666] font-semibold relative overflow-hidden before:content-[''] before:absolute before:inset-0 before:pointer-events-none transition-all duration-500 group-hover:from-[rgba(255,215,0,0.12)] group-hover:to-[rgba(0,217,255,0.12)]" style={{ backgroundImage: 'linear-gradient(0deg, transparent 24%, rgba(255, 215, 0, 0.05) 25%, rgba(255, 215, 0, 0.05) 26%, transparent 27%, transparent 74%, rgba(255, 215, 0, 0.05) 75%, rgba(255, 215, 0, 0.05) 76%, transparent 77%, transparent), linear-gradient(90deg, transparent 24%, rgba(255, 215, 0, 0.05) 25%, rgba(255, 215, 0, 0.05) 26%, transparent 27%, transparent 74%, rgba(255, 215, 0, 0.05) 75%, rgba(255, 215, 0, 0.05) 76%, transparent 77%, transparent)', backgroundSize: '50px 50px' }}>
-                  <span className="group-hover:scale-110 transition-transform duration-300">Profile Image</span>
+                  <img
+                    src="https://randomuser.me/api/portraits/men/32.jpg"
+                    alt="Profile"
+                    className="w-32 h-32 object-cover rounded-full border-4 border-[#222] shadow-lg group-hover:scale-110 transition-transform duration-300"
+                  />
                 </div>
               </div>
               <h4 className="text-[1.4rem] font-bold text-white text-center pt-[25px] px-5 pb-2 m-0 group-hover:text-primary transition-colors duration-300">David Michel</h4>

@@ -34,9 +34,9 @@ const Hero = () => {
       <div className="max-w-[1200px] mx-auto relative z-[1]">
         {/* Large Name */}
         <AnimatedSection animation="fadeDown" duration={800}>
-          <h1 className="text-[10rem] font-extrabold leading-none mb-[30px] tracking-[0.02em] text-white uppercase text-center flex justify-center gap-[60px] max-xl:text-[7rem] max-xl:gap-10 max-lg:text-[5rem] max-lg:gap-[30px] max-md:text-[3rem] max-md:flex-col max-md:gap-2.5">
-            <span className="hover:text-primary transition-colors duration-300 cursor-default">DAVID</span>
-            <span className="hover:text-primary transition-colors duration-300 cursor-default">MICHEL</span>
+          <h1 className="text-[9.5rem] font-extrabold leading-none mb-[30px] tracking-[0.02em] text-white uppercase text-center flex justify-center gap-[60px] max-xl:text-[7rem] max-xl:gap-10 max-lg:text-[5rem] max-lg:gap-[30px] max-md:text-[3rem] max-md:flex-col max-md:gap-2.5">
+            <span className="hover:text-primary transition-colors duration-300 cursor-default">AMINU</span>
+            <span className="hover:text-primary transition-colors duration-300 cursor-default">JOSEPH</span>
           </h1>
         </AnimatedSection>
         
@@ -57,7 +57,11 @@ const Hero = () => {
                 {/* Dotted background */}
                 <div className="absolute bottom-0 left-0 w-[300px] h-[280px] opacity-80 z-0 max-md:w-[200px] max-md:h-[200px] transition-opacity duration-300 group-hover:opacity-100" style={{ backgroundImage: 'radial-gradient(circle, #333333 1px, transparent 1px)', backgroundSize: '8px 8px' }}></div>
                 <div className="w-[380px] h-[450px] flex items-center justify-center text-[#666666] text-base font-semibold relative z-[1] max-md:w-[280px] max-md:h-[340px] transition-transform duration-500 group-hover:scale-[1.02]" style={{ background: 'linear-gradient(180deg, transparent 0%, rgba(10, 10, 10, 0.8) 100%)' }}>
-                  <span>Profile Photo</span>
+                  <img
+                    src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=facearea&w=400&h=450&facepad=2"
+                    alt="Profile"
+                    className="w-full h-full object-cover rounded-xl shadow-lg border-4 border-[#222]"
+                  />
                 </div>
               </div>
             </div>
