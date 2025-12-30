@@ -125,11 +125,7 @@ const Services = () => {
             <div className="relative flex flex-col h-full">
               <div className="relative flex-1 flex items-center justify-center">
                 <div className="w-full h-[350px] bg-gradient-to-br from-[rgba(255,215,0,0.1)] to-[rgba(100,100,0,0.1)] border border-[#333333] rounded-2xl flex items-center justify-center text-[#808080] font-semibold text-[1.1rem] relative max-md:h-[280px] transition-all duration-500 hover:border-primary/50 hover:shadow-[0_0_40px_rgba(255,215,0,0.1)] group">
-                  <img
-                    src="https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=600&q=80"
-                    alt="Service"
-                    className="w-full h-full object-cover rounded-2xl shadow-md group-hover:scale-110 transition-transform duration-300"
-                  />
+                  {/* Image removed */}
                 </div>
               </div>
               <button 

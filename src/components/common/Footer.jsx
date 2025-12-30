@@ -80,7 +80,7 @@ const Footer = () => {
         <div className="max-w-[1400px] mx-auto px-5 py-[30px] flex justify-between items-center max-md:flex-col max-md:gap-6">
           <div className="flex items-center gap-3">
             <div className="w-9 h-9 rounded-full bg-gradient-to-br from-primary to-[#f0c000]"></div>
-            <span className="text-xl font-semibold text-white">PortFoliyo</span>
+            <span className="text-xl font-semibold text-white">Epignosis</span>
           </div>
           <div className="text-center">
             <div className="text-[#666666] text-[0.85rem] leading-relaxed">

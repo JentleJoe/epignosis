@@ -1,4 +1,4 @@
-# David Michel Portfolio - Project Structure
+# Aminu Momodu Portfolio - Project Structure
 
 ## 📁 Folder Structure
 

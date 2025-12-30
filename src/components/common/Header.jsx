@@ -27,7 +27,7 @@ const Header = ({ onNavClick }) => {
             <div className="w-9 h-9 rounded-full bg-gradient-to-br from-primary to-secondary flex items-center justify-center overflow-hidden">
               <span className="text-black text-sm font-bold">👤</span>
             </div>
-            <span className="font-bold">PortFoliyo</span>
+            <span className="font-bold">Epignosis</span>
           </div>
 
           {/* Hamburger Menu Button */}
@@ -97,7 +97,7 @@ const Header = ({ onNavClick }) => {
 
         {/* Menu Footer */}
         <div className="absolute bottom-0 left-0 right-0 p-5 border-t border-[#1a1a1a]" style={{ backgroundColor: '#000000' }}>
-          <p className="text-[#666] text-sm text-center">© 2025 PortFoliyo</p>
+          <p className="text-[#666] text-sm text-center">© 2025 Epignosis</p>
         </div>
       </div>
     </>

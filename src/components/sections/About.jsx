@@ -37,7 +37,7 @@ const About = () => {
               Product Designer
             </h3>
             <p className="text-[1.05rem] text-[#a0a0a0] leading-[1.85] max-w-[520px]">
-              I'm David Michel, a UI/UX designer passionate about crafting intuitive, user-centered experiences. I've completed 100+ projects turning complex ideas into seamless interfaces.
+              I'm Aminu Momodu, a UI/UX designer passionate about crafting intuitive, user-centered experiences. I've completed 100+ projects turning complex ideas into seamless interfaces.
             </p>
             <Button variant="primary" className="w-fit after:content-['↓'] after:ml-2 after:transition-transform after:duration-300 hover:after:translate-y-[3px] hover:scale-105 transition-transform duration-300">
               Download Resume
@@ -57,7 +57,7 @@ const About = () => {
                   />
                 </div>
               </div>
-              <h4 className="text-[1.4rem] font-bold text-white text-center pt-[25px] px-5 pb-2 m-0 group-hover:text-primary transition-colors duration-300">David Michel</h4>
+              <h4 className="text-[1.4rem] font-bold text-white text-center pt-[25px] px-5 pb-2 m-0 group-hover:text-primary transition-colors duration-300">Aminu Momodu</h4>
               <p className="text-[0.95rem] text-[#808080] text-center px-5 pb-[25px] m-0 font-medium">Visualizer & Design Director</p>
               <div className="flex justify-center gap-5 py-5 border-t border-[#333333] bg-[rgba(10,10,10,0.5)]">
                 {socialLinks.map(link => (

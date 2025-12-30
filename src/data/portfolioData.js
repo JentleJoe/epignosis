@@ -1,5 +1,5 @@
 export const portfolioData = {
-  name: "DAVID MICHEL",
+  name: "AMINU MOMODU",
   title: "Creative Designer",
   bio: "Welcome to my portfolio, I'm a passionate designer who specializes in creating beautiful and functional digital experiences. With a keen eye for detail and a love for innovation, I transform ideas into stunning visual solutions.",
   projects: [
