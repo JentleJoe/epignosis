@@ -8,38 +8,38 @@ const Services = () => {
   const services = [
     {
       id: 1,
-      subtitle: 'Designing Seamless Journeys',
-      title: 'UI/UX Design',
-      fullDescription: 'Crafting intuitive, user-centered experiences that delight and engage. I design digital solutions that solve real problems and exceed user expectations.',
+      subtitle: 'Keeping leaders focused',
+      title: 'Executive Virtual Assistant',
+      fullDescription: 'Running point on calendars, inboxes, travel, and client comms so you stay in control and on time. I standardize the way your week runs and keep stakeholders informed.',
       details: [
-        'User Research & Analysis',
-        'Wireframing & Prototyping',
-        'Interactive Interface Design',
-        'Usability Testing & Optimization'
+        'Calendar, inbox, and meeting prep',
+        'Travel and logistics coordination',
+        'Client communication + follow-ups',
+        'SOPs, documentation, and reporting'
       ]
     },
     {
       id: 2,
-      subtitle: 'Building Functional Solutions',
-      title: 'Web Development',
-      fullDescription: 'Creating responsive, high-performance websites and applications. I build digital experiences that are fast, scalable, and user-friendly.',
+      subtitle: 'Systems that run themselves',
+      title: 'Automation Specialist',
+      fullDescription: 'Designing and shipping low-code automations that remove manual steps across your stack. From intake to delivery, I connect tools, clean data, and add safeguards.',
       details: [
-        'User Research & Analysis',
-        'Wireframing & Prototyping',
-        'Interactive Interface Design',
-        'Usability Testing & Optimization'
+        'Workflow mapping and optimization',
+        'Zapier/Make + custom API automations',
+        'CRM, lead routing, and notifications',
+        'Dashboards, alerts, and QA checks'
       ]
     },
     {
       id: 3,
-      subtitle: 'Shaping Memorable Identities',
-      title: 'Branding',
-      fullDescription: 'Developing and maintaining web applications, ensuring functionality, and collaborating with teams to deliver seamless.',
+      subtitle: 'Bridging onchain and ops',
+      title: 'Web 3 Enthusiast',
+      fullDescription: 'Supporting community and ops for web3 teams—research, onboarding flows, and lightweight automations that keep supporters engaged and safe.',
       details: [
-        'User Research & Analysis',
-        'Wireframing & Prototyping',
-        'Interactive Interface Design',
-        'Usability Testing & Optimization'
+        'Community ops and moderation playbooks',
+        'Onboarding and support workflows',
+        'Ecosystem research and reporting',
+        'Wallet safety and automation best practices'
       ]
     }
   ];

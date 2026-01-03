@@ -4,7 +4,7 @@ import TypeWriter from '../common/TypeWriter';
 import AnimatedSection from '../common/AnimatedSection';
 
 const Hero = () => {
-  const skills = ['BRANDING', 'UI/UX DESIGN', 'DEVELOPMENT', 'WEB DESIGN'];
+  const skills = ['EXECUTIVE VIRTUAL ASSISTANT', 'AUTOMATION SPECIALIST', 'CLIENT OPERATIONS'];
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
 
   useEffect(() => {
@@ -66,18 +66,18 @@ const Hero = () => {
           <AnimatedSection animation="fadeLeft" delay={400} duration={800}>
             <div className="flex flex-col justify-end pb-10">
               <p className="text-[1.15rem] text-[#999999] mb-4 leading-[1.8] max-w-[600px] max-md:text-base max-md:max-w-full">
-                Welcome to my portfolio! I'm Aminu Momodu, a
+                Welcome to my portfolio! I'm Aminu Momodu, an operations-first partner who keeps founders organized and moving.
               </p>
               <p className="text-[1.15rem] text-primary mb-10 leading-[1.8] max-w-[600px] max-md:text-base max-md:max-w-full h-8">
                 <TypeWriter 
-                  words={['Web Designer', 'UI/UX Expert', 'Brand Strategist', 'Creative Developer']}
+                  words={['Executive Virtual Assistant', 'Automation Specialist']}
                   typingSpeed={80}
                   deletingSpeed={40}
                   pauseTime={1500}
                 />
               </p>
               <p className="text-[1.15rem] text-[#999999] mb-10 leading-[1.8] max-w-[600px] max-md:text-base max-md:max-w-full">
-                from the US with 16+ years of experience. I craft visually stunning, functional websites that deliver exceptional user experiences.
+                Based in Nigeria, I streamline calendars and inboxes, coordinate stakeholders, and build automations that remove manual work.
               </p>
               <Button variant="primary" className="inline-flex items-center gap-2.5 w-fit py-4 px-7 text-xl font-medium rounded-xl max-md:text-base max-md:py-3.5 max-md:px-[22px] group hover:scale-105 transition-transform duration-300">
                 Start a Project Now

@@ -28,59 +28,59 @@ export const portfolioData = {
   services: [
     {
       id: 1,
-      icon: "🎨",
-      title: "UX/UI Design",
-      description: "Creating beautiful and intuitive user interfaces"
+      icon: "🗂️",
+      title: "Executive Virtual Assistant",
+      description: "Calendar, inbox, travel, and stakeholder management for busy leaders"
     },
     {
       id: 2,
-      icon: "🎭",
-      title: "Branding",
-      description: "Developing unique brand identities"
+      icon: "⚙️",
+      title: "Automation Specialist",
+      description: "Low-code workflows, integrations, and QA checks that remove manual work"
     },
     {
       id: 3,
-      icon: "🖼️",
-      title: "Animation Design",
-      description: "Bringing designs to life with motion"
+      icon: "🌐",
+      title: "Web 3 Enthusiast",
+      description: "Community ops, research, and safe onboarding for web3 projects"
     },
     {
       id: 4,
-      icon: "📱",
-      title: "Product Design",
-      description: "End-to-end product design solutions"
+      icon: "🤝",
+      title: "Client Operations",
+      description: "Process documentation, reporting, and hands-on support for teams"
     }
   ],
   experience: [
     {
       id: 1,
-      title: "UX/UI Design",
+      title: "Executive Virtual Assistant",
       duration: "2020 - Present",
-      description: "Leading design initiatives and creating user experiences"
+      description: "Managing executive calendars, inboxes, travel, and partner communication to keep teams aligned"
     },
     {
       id: 2,
-      title: "Web Development",
+      title: "Automation Specialist",
       duration: "2018 - 2020",
-      description: "Building responsive and interactive websites"
+      description: "Mapping workflows, building Zapier/Make automations, and monitoring data quality across tools"
     },
     {
       id: 3,
-      title: "Branding",
+      title: "Client Operations",
       duration: "2016 - 2018",
-      description: "Creating brand identities and visual systems"
+      description: "Documenting SOPs, coordinating deliverables, and keeping clients updated"
     },
     {
       id: 4,
-      title: "Animation Design",
+      title: "Web 3 Enthusiast",
       duration: "2015 - 2016",
-      description: "Designing motion and interactive animations"
+      description: "Supporting community ops, moderating channels, and writing concise onchain reports"
     },
     {
       id: 5,
-      title: "Product Design",
+      title: "Project Coordination",
       duration: "2014 - 2015",
-      description: "Designing digital and physical products"
+      description: "Coordinating projects, timelines, and resources while maintaining stakeholder visibility"
     }
   ],
   portfolio: [

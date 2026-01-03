@@ -1,6 +1,5 @@
 import Button from '../common/Button';
 import AnimatedSection from '../common/AnimatedSection';
-import CounterCard from '../common/CounterCard';
 
 const About = () => {
   const socialLinks = [
@@ -8,13 +7,6 @@ const About = () => {
     { id: 2, icon: '📷', name: 'Instagram', url: '#' },
     { id: 3, icon: 'in', name: 'LinkedIn', url: '#' },
     { id: 4, icon: '𝕏', name: 'X', url: '#' }
-  ];
-
-  const stats = [
-    { end: 16, suffix: '+', label: 'Years Experience' },
-    { end: 100, suffix: '+', label: 'Projects Completed' },
-    { end: 50, suffix: '+', label: 'Happy Clients' },
-    { end: 15, suffix: '+', label: 'Awards Won' }
   ];
 
   return (
@@ -29,15 +21,15 @@ const About = () => {
       </AnimatedSection>
 
       {/* Content */}
-      <div className="max-w-[1200px] mx-auto grid grid-cols-2 gap-20 items-center mb-20 max-lg:grid-cols-1 max-lg:gap-[60px]">
+      <div className="max-w-[1200px] mx-auto grid grid-cols-2 gap-20 items-center max-lg:grid-cols-1 max-lg:gap-[60px]">
         <AnimatedSection animation="fadeRight" delay={100} duration={700}>
           <div className="flex flex-col gap-[30px]">
             <h3 className="text-[2.8rem] font-bold leading-[1.2] text-white capitalize max-lg:text-[2.2rem] max-md:text-[1.8rem]">
-              Passionate & lead<br />
-              Product Designer
+              Calm, reliable<br />
+              operations partner
             </h3>
             <p className="text-[1.05rem] text-[#a0a0a0] leading-[1.85] max-w-[520px]">
-              I'm Aminu Momodu, a UI/UX designer passionate about crafting intuitive, user-centered experiences. I've completed 100+ projects turning complex ideas into seamless interfaces.
+              I'm Aminu Momodu, an Executive Virtual Assistant who builds structure for busy leaders. I pair hands-on support with automation builds so your calendar, inbox, and workflows run smoothly.
             </p>
             <Button variant="primary" className="w-fit after:content-['↓'] after:ml-2 after:transition-transform after:duration-300 hover:after:translate-y-[3px] hover:scale-105 transition-transform duration-300">
               Download Resume
@@ -72,23 +64,6 @@ const About = () => {
                 ))}
               </div>
             </div>
-          </div>
-        </AnimatedSection>
-      </div>
-
-      {/* Stats Counter Section */}
-      <div className="max-w-[1200px] mx-auto">
-        <AnimatedSection animation="fadeUp" delay={300} duration={700}>
-          <div className="grid grid-cols-4 gap-6 max-lg:grid-cols-2 max-md:grid-cols-1">
-            {stats.map((stat, index) => (
-              <CounterCard
-                key={index}
-                end={stat.end}
-                suffix={stat.suffix}
-                label={stat.label}
-                duration={2000 + index * 200}
-              />
-            ))}
           </div>
         </AnimatedSection>
       </div>

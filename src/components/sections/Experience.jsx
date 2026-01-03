@@ -4,24 +4,24 @@ const Experience = () => {
   const experiences = [
     {
       id: 1,
-      title: 'UI/UX Designer',
+      title: 'Executive Virtual Assistant',
       company: 'Wegems',
       period: '2023 - Present',
-      description: 'Designing intuitive interfaces, improving user flows, conducting usability tests, and collaborating with teams to create engaging digital experiences.'
+      description: 'Owning calendar, inbox, travel, and partner coordination for founders while keeping meeting prep, notes, and follow-ups tight.'
     },
     {
       id: 2,
-      title: 'Product Designer',
+      title: 'Automation Specialist',
       company: 'LuminUI',
-      period: '2022 - 2023',
-      description: 'Crafting interactive designs, prototyping innovative features, analyzing user behavior, and ensuring products meet user needs and business goals.'
+      period: '2021 - 2023',
+      description: 'Mapping workflows, building Zapier/Make + API automations, and shipping dashboards and alerts that remove manual work.'
     },
     {
       id: 3,
-      title: 'Senior UX Designer',
+      title: 'Web3 Ops & Support',
       company: 'Ugergency',
-      period: '2020 - 2022',
-      description: 'Leading UX projects, conducting user research and testing, and optimizing products for usability, engagement, and overall satisfaction.'
+      period: '2019 - 2021',
+      description: 'Supporting web3 community ops, writing concise research updates, and creating onboarding/support flows that keep users safe.'
     }
   ];
 

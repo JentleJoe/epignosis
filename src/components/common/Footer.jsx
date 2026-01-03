@@ -84,7 +84,7 @@ const Footer = () => {
           </div>
           <div className="text-center">
             <div className="text-[#666666] text-[0.85rem] leading-relaxed">
-              ©2025 Usergency All rights reserved.
+              ©2025 Aminu Momodu All rights reserved.
             </div>
             <div className="mt-2 text-[0.9rem] text-[#a0a0a0]">
               Built by{' '}
