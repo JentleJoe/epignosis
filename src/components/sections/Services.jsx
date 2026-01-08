@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import Button from '../common/Button';
 import AnimatedSection from '../common/AnimatedSection';
+import workflowImage from '../../assets/workflow.png';
 
 const Services = () => {
   const [expandedId, setExpandedId] = useState(1);
@@ -10,36 +11,39 @@ const Services = () => {
       id: 1,
       subtitle: 'Keeping leaders focused',
       title: 'Executive Virtual Assistant',
-      fullDescription: 'Running point on calendars, inboxes, travel, and client comms so you stay in control and on time. I standardize the way your week runs and keep stakeholders informed.',
+      image: 'https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=800&q=80',
+      fullDescription: 'Running point on calendars, inboxes, travel, and client comms so you stay in control and on time. I standardize how your week runs, keep stakeholders updated, and protect your focus time.',
       details: [
-        'Calendar, inbox, and meeting prep',
-        'Travel and logistics coordination',
-        'Client communication + follow-ups',
-        'SOPs, documentation, and reporting'
+        'Daily briefings, inbox triage, and meeting prep',
+        'Calendar control, travel, and logistics',
+        'Vendor/client comms, notes, and follow-ups',
+        'SOPs, documentation, and status reporting'
       ]
     },
     {
       id: 2,
       subtitle: 'Systems that run themselves',
       title: 'Automation Specialist',
-      fullDescription: 'Designing and shipping low-code automations that remove manual steps across your stack. From intake to delivery, I connect tools, clean data, and add safeguards.',
+      image: workflowImage,
+      fullDescription: 'Designing and shipping low-code automations that remove manual steps across your stack. I connect tools, clean data, and add guardrails so ops stay reliable at scale.',
       details: [
-        'Workflow mapping and optimization',
-        'Zapier/Make + custom API automations',
-        'CRM, lead routing, and notifications',
-        'Dashboards, alerts, and QA checks'
+        'Workflow mapping and service blueprints',
+        'Zapier / Make / n8n + API integrations',
+        'Data hygiene, routing, and deduping',
+        'Monitors, alerts, and QA fail-safes'
       ]
     },
     {
       id: 3,
       subtitle: 'Bridging onchain and ops',
       title: 'Web 3 Enthusiast',
-      fullDescription: 'Supporting community and ops for web3 teams—research, onboarding flows, and lightweight automations that keep supporters engaged and safe.',
+      image: 'https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=800&q=80',
+      fullDescription: 'Supporting community and ops for web3 teams with concise research, safe onboarding, and lightweight automations that keep supporters engaged.',
       details: [
-        'Community ops and moderation playbooks',
-        'Onboarding and support workflows',
-        'Ecosystem research and reporting',
-        'Wallet safety and automation best practices'
+        'Community ops playbooks and moderation',
+        'Onboarding, FAQ, and support workflows',
+        'Ecosystem research and weekly recaps',
+        'Wallet safety guidance and automation checks'
       ]
     }
   ];
@@ -70,9 +74,11 @@ const Services = () => {
 
         <AnimatedSection animation="fadeLeft" delay={100} duration={600}>
           <div className="flex flex-col gap-5">
-            <h2 className="text-[2.6rem] font-bold leading-[1.25] text-white m-0 tracking-[0.01em] max-lg:text-[2rem] max-md:text-2xl">Experience the Impact of User-Centered Design</h2>
+            <h2 className="text-[2.6rem] font-bold leading-[1.25] text-white m-0 tracking-[0.01em] max-lg:text-[2rem] max-md:text-2xl">
+              {expandedService?.title || 'My Services'}
+            </h2>
             <p className="text-base text-[#999999] leading-[1.8] m-0 max-md:text-[0.95rem]">
-              Experience the impact of user-centered design. I craft intuitive and engaging digital solutions that put users first and elevate brands.
+              {expandedService?.fullDescription || 'Executive support, automation builds, and onchain ops that keep work moving without the busywork.'}
             </p>
           </div>
         </AnimatedSection>
@@ -124,8 +130,12 @@ const Services = () => {
           {expandedService ? (
             <div className="relative flex flex-col h-full">
               <div className="relative flex-1 flex items-center justify-center">
-                <div className="w-full h-[350px] bg-gradient-to-br from-[rgba(255,215,0,0.1)] to-[rgba(100,100,0,0.1)] border border-[#333333] rounded-2xl flex items-center justify-center text-[#808080] font-semibold text-[1.1rem] relative max-md:h-[280px] transition-all duration-500 hover:border-primary/50 hover:shadow-[0_0_40px_rgba(255,215,0,0.1)] group">
-                  {/* Image removed */}
+                <div className="w-full h-[350px] bg-gradient-to-br from-[rgba(255,215,0,0.1)] to-[rgba(100,100,0,0.1)] border border-[#333333] rounded-2xl flex items-center justify-center text-[#808080] font-semibold text-[1.1rem] relative max-md:h-[280px] transition-all duration-500 hover:border-primary/50 hover:shadow-[0_0_40px_rgba(255,215,0,0.1)] group overflow-hidden">
+                  <img 
+                    src={expandedService.image} 
+                    alt={expandedService.title}
+                    className="w-full h-full object-cover rounded-2xl transition-transform duration-500 group-hover:scale-105"
+                  />
                 </div>
               </div>
               <button 
