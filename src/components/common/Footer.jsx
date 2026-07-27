@@ -89,7 +89,7 @@ const Footer = () => {
             <div className="mt-2 text-[0.9rem] text-[#a0a0a0]">
               Built by{' '}
               <a 
-                href="https://joshuaoseghale.vercel.app/" 
+                href="https://joshuaoseghale.com/" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-primary font-semibold hover:underline transition-all duration-300 hover:text-[#f0c000]"
