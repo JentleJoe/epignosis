@@ -1,14 +1,14 @@
 @import "tailwindcss";
 
 @theme {
-  --color-primary: #FFD700;
-  --color-secondary: #FFE44D;
-  --color-dark-bg: #0f0f0f;
-  --color-dark-surface: #1a1a1a;
-  --color-dark-border: #2a2a2a;
+  --color-primary: #1D5EFF;
+  --color-secondary: #7AA8FF;
+  --color-dark-bg: #000000;
+  --color-dark-surface: #111111;
+  --color-dark-border: #1d1d1d;
   --color-text-primary: #ffffff;
-  --color-text-secondary: #999999;
-  --color-text-light: #666666;
+  --color-text-secondary: #b3b3b3;
+  --color-text-light: #7a7a7a;
 }
 
 @layer base {
@@ -85,7 +85,7 @@
   
   .header-line {
     @apply flex-1 h-px ml-5;
-    background: linear-gradient(90deg, #00d9ff 0%, transparent 100%);
+    background: linear-gradient(90deg, #1D5EFF 0%, transparent 100%);
   }
 }
 
@@ -143,10 +143,10 @@
   
   @keyframes pulseGlow {
     0%, 100% {
-      box-shadow: 0 0 20px rgba(255, 215, 0, 0.3);
+      box-shadow: 0 0 20px rgba(29, 94, 255, 0.3);
     }
     50% {
-      box-shadow: 0 0 40px rgba(255, 215, 0, 0.6);
+      box-shadow: 0 0 40px rgba(29, 94, 255, 0.6);
     }
   }
   
@@ -178,7 +178,7 @@
   
   .animate-shimmer {
     animation: shimmer 2s linear infinite;
-    background: linear-gradient(90deg, transparent, rgba(255, 215, 0, 0.1), transparent);
+    background: linear-gradient(90deg, transparent, rgba(29, 94, 255, 0.1), transparent);
     background-size: 200% 100%;
   }
   
