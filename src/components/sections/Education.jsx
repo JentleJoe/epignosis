@@ -22,6 +22,21 @@ const Education = () => {
     }
   ];
 
+  const certifications = [
+    'AI Automation Certified — Loubby AI',
+    'Project Management Certified — ClickUp',
+    'IBM Data Analyst Professional Certificate',
+    'IBM Project Management Professional Certificate',
+    'Microsoft Project Management Professional Certificate',
+    'Google Project Management Professional Certificate',
+    'Inbound Certified — HubSpot Academy',
+    'Budgeting and Forecasting — CFI',
+    'Financial Analysis Fundamentals — CFI',
+    'Excel Fundamentals — Formulas for Finance — CFI',
+    'Accounting Fundamentals — CFI',
+    'Professional Ethics — CFI'
+  ];
+
   return (
     <section id="education" className="py-[100px] px-5 bg-gradient-to-br from-dark-surface to-dark-bg relative max-lg:py-20 max-md:py-[60px]">
       <div className="max-w-[1200px] mx-auto">
@@ -55,14 +70,7 @@ const Education = () => {
           <div className="mt-16 max-w-[680px]">
             <h3 className="text-[1.3rem] text-white font-semibold tracking-[0.05em] mb-5">Certifications</h3>
             <div className="grid gap-4">
-              {[
-                'Inbound Certified — HubSpot Academy',
-                'Budgeting and Forecasting — CFI',
-                'Financial Analysis Fundamentals — CFI',
-                'Excel Fundamentals — Formulas for Finance — CFI',
-                'Accounting Fundamentals — CFI',
-                'Professional Ethics — CFI'
-              ].map((cert) => (
+              {certifications.map((cert) => (
                 <div key={cert} className="flex items-center gap-3 rounded-lg border border-[#333333] bg-[rgba(10,10,10,0.5)] px-4 py-3 text-[#d9d9d9]">
                   <span className="text-primary text-lg">✦</span>
                   <span>{cert}</span>

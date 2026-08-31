@@ -78,8 +78,10 @@ const Footer = () => {
       <div className="border-t border-[#1a1a1a] relative before:content-[''] before:absolute before:top-0 before:left-0 before:right-0 before:h-px before:bg-gradient-to-r before:from-transparent before:via-[rgba(100,80,0,0.4)] before:to-transparent">
         <div className="max-w-[1400px] mx-auto px-5 py-[30px] flex justify-between items-center max-md:flex-col max-md:gap-6">
           <div className="flex items-center gap-3">
-            <div className="w-9 h-9 rounded-full bg-gradient-to-br from-primary to-[#f0c000]"></div>
-            <span className="text-xl font-semibold text-white">Epignosis</span>
+            <div className="w-9 h-9 rounded-full bg-gradient-to-br from-primary to-secondary flex items-center justify-center overflow-hidden">
+              <span className="text-black text-sm font-bold">AM</span>
+            </div>
+            <span className="text-xl font-semibold text-white">Aminu Assists</span>
           </div>
           <div className="text-center">
             <div className="text-[#666666] text-[0.85rem] leading-relaxed">
