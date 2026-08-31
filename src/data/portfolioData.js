@@ -1,150 +1,137 @@
 export const portfolioData = {
-  name: "AMINU MOMODU",
-  title: "Creative Designer",
-  bio: "Welcome to my portfolio, I'm a passionate designer who specializes in creating beautiful and functional digital experiences. With a keen eye for detail and a love for innovation, I transform ideas into stunning visual solutions.",
+  name: "Aminu Momodu",
+  title: "Executive Virtual Assistant & Operations Support",
+  bio: "Turning executive chaos into clear systems. I help founders, executives, and growing teams stay organized, responsive, and focused by streamlining calendars, inboxes, workflows, CRM updates, and day-to-day operations.",
   projects: [
     {
       id: 1,
-      title: "M3 Mockup",
-      subtitle: "Product Mockup",
-      description: "High-fidelity product mockup design",
+      title: "Notion Workspace",
+      subtitle: "Executive system design",
+      description: "Organized dashboards and task tracking for busy leaders",
       image: "project1"
     },
     {
       id: 2,
-      title: "LuminUI",
-      subtitle: "UI/UX Design",
-      description: "Modern UI component library design",
+      title: "CRM Cleanup",
+      subtitle: "Data coordination",
+      description: "Accurate records, status updates, and pipeline tracking",
       image: "project2"
     },
     {
       id: 3,
-      title: "Panasonic & Lead",
-      subtitle: "Product Designer",
-      description: "Product design and branding work",
+      title: "Inbox & Calendar Ops",
+      subtitle: "Administrative support",
+      description: "Email triage, scheduling, follow-up management, and meeting flow",
       image: "project3"
     }
   ],
   services: [
     {
       id: 1,
-      icon: "🗂️",
-      title: "Executive Virtual Assistant",
-      description: "Calendar, inbox, travel, and stakeholder management for busy leaders"
+      icon: "🗓️",
+      title: "Calendar & Schedule Management",
+      description: "Time blocking, meeting coordination, and executive scheduling that keeps priorities clear"
     },
     {
       id: 2,
-      icon: "⚙️",
-      title: "Automation Specialist",
-      description: "Low-code workflows, integrations, and QA checks that remove manual work"
+      icon: "📧",
+      title: "Inbox & Communication Support",
+      description: "Email triage, follow-ups, and organized communication flow for founders and leaders"
     },
     {
       id: 3,
-      icon: "🌐",
-      title: "Web 3 Enthusiast",
-      description: "Community ops, research, and safe onboarding for web3 projects"
+      icon: "🧭",
+      title: "CRM & Data Coordination",
+      description: "Accurate updates, spreadsheet organization, and clean records across your business systems"
     },
     {
       id: 4,
-      icon: "🤝",
-      title: "Client Operations",
-      description: "Process documentation, reporting, and hands-on support for teams"
+      icon: "⚙️",
+      title: "Workflow Optimization",
+      description: "System setup in Notion, ClickUp, Trello, Asana, Google Workspace, and Airtable"
     }
   ],
   experience: [
     {
       id: 1,
-      title: "Executive Virtual Assistant",
-      duration: "2020 - Present",
-      description: "Managing executive calendars, inboxes, travel, and partner communication to keep teams aligned"
+      title: "Executive Assistant & Virtual Operations Support",
+      duration: "Support for founders and executive teams",
+      description: "Helping leaders stay organized through calendar management, inbox support, travel coordination, task tracking, and structured follow-up systems."
     },
     {
       id: 2,
-      title: "Automation Specialist",
-      duration: "2018 - 2020",
-      description: "Mapping workflows, building Zapier/Make automations, and monitoring data quality across tools"
+      title: "Project & Task Coordination",
+      duration: "Notion, ClickUp, Trello, Asana",
+      description: "Setting up and managing workspaces, monitoring deadlines, and keeping projects aligned with business priorities."
     },
     {
       id: 3,
-      title: "Client Operations",
-      duration: "2016 - 2018",
-      description: "Documenting SOPs, coordinating deliverables, and keeping clients updated"
-    },
-    {
-      id: 4,
-      title: "Web 3 Enthusiast",
-      duration: "2015 - 2016",
-      description: "Supporting community ops, moderating channels, and writing concise onchain reports"
-    },
-    {
-      id: 5,
-      title: "Project Coordination",
-      duration: "2014 - 2015",
-      description: "Coordinating projects, timelines, and resources while maintaining stakeholder visibility"
+      title: "CRM & Administrative Operations",
+      duration: "Airtable, spreadsheets, Google Workspace",
+      description: "Maintaining clean records, updating client information, organizing documentation, and supporting smooth operational flow."
     }
   ],
   portfolio: [
     {
       id: 1,
-      title: "Website Redesign",
-      category: "Web Design",
+      title: "Executive Support Systems",
+      category: "Operations",
       image: "portfolio1"
     },
     {
       id: 2,
-      title: "Branding Identity Design",
-      category: "Branding",
+      title: "Notion & Workflow Design",
+      category: "Systems",
       image: "portfolio2"
     },
     {
       id: 3,
-      title: "Creative Hub Website",
-      category: "Web Design",
+      title: "CRM & Data Management",
+      category: "Administration",
       image: "portfolio3"
     },
     {
       id: 4,
-      title: "Mobile App PMP Designs",
-      category: "Mobile Design",
+      title: "Travel & Logistics Support",
+      category: "Coordination",
       image: "portfolio4"
     }
   ],
   faqs: [
     {
       id: 1,
-      question: "What services do you offer?",
-      answer: "Blending creativity and functionality, I design user-focused digital products and responsive websites that not only look stunning but also deliver."
+      question: "What support do you provide for executives and founders?",
+      answer: "I provide behind-the-scenes support that keeps your business running smoothly, including calendar management, inbox organization, travel coordination, CRM updates, document management, and task tracking."
     },
     {
       id: 2,
-      question: "How fast will I receive my work?",
-      answer: "Turnaround time depends on project scope, but typically ranges from 2-4 weeks for most projects."
+      question: "Which tools do you work with?",
+      answer: "I work with Notion, Google Workspace, Trello, Asana, ClickUp, Monday.com, Airtable, and spreadsheet-based systems to keep work organized and transparent."
     },
     {
       id: 3,
-      question: "What's your refund policy?",
-      answer: "I offer a satisfaction guarantee. If you're not completely satisfied with the initial design, I'll revise it until you are."
+      question: "How do you help busy leaders save time?",
+      answer: "By creating structure around the work that drains attention. I reduce scattered calendars, unresolved follow-ups, document chaos, and operational friction so leaders can focus on decisions and growth."
     },
     {
       id: 4,
-      question: "What if I have a single project?",
-      answer: "Single projects are absolutely welcome! I work with clients on projects of all sizes, from small tasks to full-scale designs."
+      question: "Do you support remote or distributed teams?",
+      answer: "Yes. I help remote teams stay aligned through structured communication, project tracking, documentation, and reliable task coordination across fast-moving environments."
     },
     {
       id: 5,
-      question: "Do you offer ongoing support?",
-      answer: "Yes, I offer ongoing support and maintenance packages for long-term partnerships and continuous optimization."
+      question: "Can you help with CRM and data upkeep?",
+      answer: "Absolutely. I handle accurate data entry, CRM updates, spreadsheet organization, document preparation, and status reporting to keep key information current and accessible."
     },
     {
       id: 6,
-      question: "Are there any hidden costs?",
-      answer: "No hidden costs. Everything is transparent and discussed upfront so you know exactly what to expect."
+      question: "Do you take on ongoing support or project-based work?",
+      answer: "Both. I can support clients with ongoing executive assistance as well as structured project and operational support tailored to their needs."
     }
   ],
   socialLinks: [
-    { id: 1, name: "Twitter", url: "#", icon: "𝕏" },
-    { id: 2, name: "LinkedIn", url: "#", icon: "in" },
-    { id: 3, name: "Instagram", url: "#", icon: "📷" },
-    { id: 4, name: "Dribbble", url: "#", icon: "🎯" }
+    { id: 1, name: "LinkedIn", url: "https://www.linkedin.com/in/aminuassists/", icon: "in" },
+    { id: 2, name: "Email", url: "mailto:aminuassists@gmail.com", icon: "@" },
+    { id: 3, name: "WhatsApp", url: "https://wa.me/2349057809092", icon: "✆" }
   ]
 };

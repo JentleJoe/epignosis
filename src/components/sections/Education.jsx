@@ -4,27 +4,21 @@ const Education = () => {
   const educationItems = [
     {
       id: 1,
-      degree: 'BSC in CSE',
-      institution: 'London University',
-      period: '2023 - Present'
+      degree: 'BSc in Biochemistry',
+      institution: 'University of Benin, Benin City, Edo State',
+      period: 'Aug 2015 – Aug 2019'
     },
     {
       id: 2,
-      degree: 'Diploma in Web Design',
-      institution: 'Oxford College',
-      period: '2022 - 2023'
+      degree: 'Project Management with ClickUp',
+      institution: 'Coursera',
+      period: 'Certificate'
     },
     {
       id: 3,
-      degree: 'UI/UX Certificate',
-      institution: 'Google Design',
-      period: '2020 - 2021'
-    },
-    {
-      id: 4,
-      degree: 'Branding Course',
-      institution: 'Cambridge Institute',
-      period: '2018 - 2019'
+      degree: 'Virtual Assistance',
+      institution: 'Remote Trybe',
+      period: 'Certificate'
     }
   ];
 
@@ -54,6 +48,27 @@ const Education = () => {
                 </div>
               </div>
             ))}
+          </div>
+        </AnimatedSection>
+
+        <AnimatedSection animation="fadeUp" delay={200} duration={700}>
+          <div className="mt-16 max-w-[680px]">
+            <h3 className="text-[1.3rem] text-white font-semibold tracking-[0.05em] mb-5">Certifications</h3>
+            <div className="grid gap-4">
+              {[
+                'Inbound Certified — HubSpot Academy',
+                'Budgeting and Forecasting — CFI',
+                'Financial Analysis Fundamentals — CFI',
+                'Excel Fundamentals — Formulas for Finance — CFI',
+                'Accounting Fundamentals — CFI',
+                'Professional Ethics — CFI'
+              ].map((cert) => (
+                <div key={cert} className="flex items-center gap-3 rounded-lg border border-[#333333] bg-[rgba(10,10,10,0.5)] px-4 py-3 text-[#d9d9d9]">
+                  <span className="text-primary text-lg">✦</span>
+                  <span>{cert}</span>
+                </div>
+              ))}
+            </div>
           </div>
         </AnimatedSection>
       </div>

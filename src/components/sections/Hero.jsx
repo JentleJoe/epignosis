@@ -4,7 +4,7 @@ import TypeWriter from '../common/TypeWriter';
 import AnimatedSection from '../common/AnimatedSection';
 
 const Hero = () => {
-  const skills = ['EXECUTIVE VIRTUAL ASSISTANT', 'AUTOMATION SPECIALIST', 'CLIENT OPERATIONS'];
+  const skills = ['CALENDAR MANAGEMENT', 'EMAIL SUPPORT', 'CRM & DATA', 'PROJECT TRACKING', 'TRAVEL COORDINATION'];
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
 
   useEffect(() => {
@@ -34,7 +34,7 @@ const Hero = () => {
       <div className="max-w-[1200px] mx-auto relative z-[1]">
         {/* Large Name */}
         <AnimatedSection animation="fadeDown" duration={800}>
-          <h1 className="text-[9.5rem] font-extrabold leading-none mb-[30px] tracking-[0.02em] text-white uppercase text-center flex justify-center gap-[60px] max-2xl:text-[8rem] max-xl:text-[7rem] max-xl:gap-10 max-lg:text-[5rem] max-lg:gap-[30px] max-md:text-[3rem] max-md:flex-col max-md:gap-2.5">
+          <h1 className="text-[8.5rem] font-extrabold leading-none mb-[30px] tracking-[0.02em] text-white uppercase text-center flex justify-center gap-[40px] max-2xl:text-[7rem] max-xl:text-[6rem] max-xl:gap-8 max-lg:text-[4.2rem] max-lg:gap-[20px] max-md:text-[2.7rem] max-md:flex-col max-md:gap-2.5">
             <span className="hover:text-primary transition-colors duration-300 cursor-default">AMINU</span>
             <span className="hover:text-primary transition-colors duration-300 cursor-default">MOMODU</span>
           </h1>
@@ -66,21 +66,21 @@ const Hero = () => {
           <AnimatedSection animation="fadeLeft" delay={400} duration={800}>
             <div className="flex flex-col justify-end pb-10">
               <p className="text-[1.15rem] text-[#999999] mb-4 leading-[1.8] max-w-[600px] max-md:text-base max-md:max-w-full">
-                Welcome to my portfolio! I'm Aminu Momodu, an operations-first partner who keeps founders organized and moving.
+                Turning executive chaos into clear systems. I help founders and leaders stay focused, organized, and in control of their day-to-day operations.
               </p>
               <p className="text-[1.15rem] text-primary mb-10 leading-[1.8] max-w-[600px] max-md:text-base max-md:max-w-full h-8">
                 <TypeWriter 
-                  words={['Executive Virtual Assistant', 'Automation Specialist']}
+                  words={['Executive Virtual Assistant', 'Operations Support Partner', 'Project & Workflow Coordinator']}
                   typingSpeed={80}
                   deletingSpeed={40}
                   pauseTime={1500}
                 />
               </p>
               <p className="text-[1.15rem] text-[#999999] mb-10 leading-[1.8] max-w-[600px] max-md:text-base max-md:max-w-full">
-                Based in Nigeria, I streamline calendars and inboxes, coordinate stakeholders, and build automations that remove manual work.
+                Based in Lagos, Nigeria, I support founders, executives, and growing teams with calendar control, inbox organization, CRM updates, task tracking, and workflow systems that reduce friction.
               </p>
               <Button variant="primary" className="inline-flex items-center gap-2.5 w-fit py-4 px-7 text-xl font-medium rounded-xl max-md:text-base max-md:py-3.5 max-md:px-[22px] group hover:scale-105 transition-transform duration-300">
-                Start a Project Now
+                Book a Consultation
                 <svg className="transition-transform duration-300 group-hover:translate-x-[3px] group-hover:-translate-y-[3px]" width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M7 17L17 7M17 7H8M17 7V16" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/>
                 </svg>

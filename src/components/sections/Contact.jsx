@@ -14,13 +14,13 @@ const Contact = () => {
               <span className="text-[1.2rem] text-primary">✦</span>
               <span className="text-base text-white font-normal tracking-[0.02em]">Got a project?</span>
             </div>
-            <h2 className="text-[3.8rem] font-medium leading-[1.15] m-0 text-white tracking-[0.02em] max-lg:text-[2.8rem] max-md:text-[2rem]">Surround yourself<br />with an expert</h2>
+            <h2 className="text-[3.8rem] font-medium leading-[1.15] m-0 text-white tracking-[0.02em] max-lg:text-[2.8rem] max-md:text-[2rem]">Need a calmer<br />system behind your business?</h2>
           </div>
         </AnimatedSection>
         <AnimatedSection animation="fadeLeft" delay={200} duration={600}>
           <div className="shrink-0 pb-[10px] max-lg:pb-0">
             <Button variant="primary" className="whitespace-nowrap py-3.5 px-6 text-[1.25rem] font-medium rounded-xl inline-flex items-center gap-[10px] group hover:scale-105 transition-transform duration-300 animate-pulse-glow">
-              Start a Project Now
+              Book a Consultation
               <svg className="transition-transform duration-300 group-hover:translate-x-[3px] group-hover:-translate-y-[3px]" width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M7 17L17 7M17 7H8M17 7V16" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/>
               </svg>

@@ -19,8 +19,8 @@ const FAQ = () => {
               <span className="text-xl text-primary">✦</span>
               <span className="text-base text-[#a0a0a0] font-medium tracking-[0.05em] uppercase">Support</span>
             </div>
-            <h2 className="text-5xl font-bold text-white m-0 leading-[1.2] tracking-[0.01em] max-lg:text-[2.5rem] max-md:text-[2rem]">FAQS</h2>
-            <p className="text-base text-[#999999] leading-[1.8] m-0 max-w-[350px]">Not sure yet? Have some questions? We listed the ones most frequently asked.</p>
+            <h2 className="text-5xl font-bold text-white m-0 leading-[1.2] tracking-[0.01em] max-lg:text-[2.5rem] max-md:text-[2rem]">FAQs</h2>
+            <p className="text-base text-[#999999] leading-[1.8] m-0 max-w-[350px]">If you are wondering how I support busy leaders, these are the most common questions I get before a project starts.</p>
           </div>
         </AnimatedSection>
 

@@ -14,7 +14,7 @@ const Header = ({ onNavClick }) => {
   const navLinks = [
     { id: '01', href: '#home', label: 'HOME', isActive: true },
     { id: '02', href: '#about', label: 'ABOUT', isActive: false },
-    { id: '03', href: '#experience', label: 'EXPERIENCE', isActive: false },
+    { id: '03', href: '#experience', label: 'EXPERTISE', isActive: false },
     { id: '04', href: '#education', label: 'EDUCATION', isActive: false },
     { id: '05', href: '#services', label: 'SERVICES', isActive: false },
   ];
@@ -25,9 +25,9 @@ const Header = ({ onNavClick }) => {
         <div className="max-w-[1200px] mx-auto px-5 flex justify-between items-center">
           <div className="text-[1.3rem] font-bold tracking-[0.05em] flex items-center gap-2 text-white max-md:text-[1.1rem]">
             <div className="w-9 h-9 rounded-full bg-gradient-to-br from-primary to-secondary flex items-center justify-center overflow-hidden">
-              <span className="text-black text-sm font-bold">👤</span>
+              <span className="text-black text-sm font-bold">AM</span>
             </div>
-            <span className="font-bold">Epignosis</span>
+            <span className="font-bold">Aminu Assists</span>
           </div>
 
           {/* Hamburger Menu Button */}
@@ -97,7 +97,7 @@ const Header = ({ onNavClick }) => {
 
         {/* Menu Footer */}
         <div className="absolute bottom-0 left-0 right-0 p-5 border-t border-[#1a1a1a]" style={{ backgroundColor: '#000000' }}>
-          <p className="text-[#666] text-sm text-center">© 2025 Epignosis</p>
+          <p className="text-[#666] text-sm text-center">© 2025 Aminu Assists</p>
         </div>
       </div>
     </>

@@ -20,18 +20,19 @@ const Footer = () => {
   };
 
   const navLinks = [
-    { name: 'Home', href: '#', active: true },
-    { name: 'About Me', href: '#about' },
+    { name: 'Home', href: '#home', active: true },
+    { name: 'About', href: '#about' },
+    { name: 'Expertise', href: '#experience' },
+    { name: 'Education', href: '#education' },
     { name: 'Services', href: '#services' },
-    { name: 'Projects', href: '#projects' },
     { name: 'Contact', href: '#contact' }
   ];
 
   const secondaryLinks = [
-    { name: 'Resume Download', href: '#' },
-    { name: 'Instructions', href: '#' },
-    { name: 'Style Guide', href: '#' },
-    { name: 'Licenses', href: '#' }
+    { name: 'LinkedIn', href: 'https://www.linkedin.com/in/aminuassists/' },
+    { name: 'Email', href: 'mailto:aminuassists@gmail.com' },
+    { name: 'WhatsApp', href: 'https://wa.me/2349057809092' },
+    { name: 'Lagos, Nigeria', href: 'https://maps.google.com/?q=Lagos, Nigeria' }
   ];
 
   return (
@@ -58,19 +59,17 @@ const Footer = () => {
           </div>
         </div>
         <div className="flex gap-[15px]">
-          <a href="#" className="w-[45px] h-[45px] rounded-full bg-[#1a1a1a] flex items-center justify-center text-white transition-all duration-300 hover:bg-primary hover:text-black" aria-label="Facebook">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-              <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
-            </svg>
-          </a>
-          <a href="#" className="w-[45px] h-[45px] rounded-full bg-[#1a1a1a] flex items-center justify-center text-white transition-all duration-300 hover:bg-primary hover:text-black" aria-label="LinkedIn">
+          <a href="https://www.linkedin.com/in/aminuassists/" target="_blank" rel="noreferrer" className="w-[45px] h-[45px] rounded-full bg-[#1a1a1a] flex items-center justify-center text-white transition-all duration-300 hover:bg-primary hover:text-black" aria-label="LinkedIn">
             <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
               <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
             </svg>
           </a>
-          <a href="#" className="w-[45px] h-[45px] rounded-full bg-[#1a1a1a] flex items-center justify-center text-white transition-all duration-300 hover:bg-primary hover:text-black" aria-label="X">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-              <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+          <a href="mailto:aminuassists@gmail.com" className="w-[45px] h-[45px] rounded-full bg-[#1a1a1a] flex items-center justify-center text-white transition-all duration-300 hover:bg-primary hover:text-black" aria-label="Email">
+            <span className="text-[1.1rem] font-semibold">@</span>
+          </a>
+          <a href="https://wa.me/2349057809092" target="_blank" rel="noreferrer" className="w-[45px] h-[45px] rounded-full bg-[#1a1a1a] flex items-center justify-center text-white transition-all duration-300 hover:bg-primary hover:text-black" aria-label="WhatsApp">
+            <svg width="18" height="18" viewBox="0 0 32 32" fill="currentColor">
+              <path d="M16.02 3.2C9.12 3.2 3.52 8.8 3.52 15.7c0 2.4.7 4.7 1.9 6.7L3.4 28.8l6.7-1.9c1.9 1 4.1 1.6 6.4 1.6h.1c6.9 0 12.5-5.6 12.5-12.5S23 3.2 16.02 3.2zm0 22.5h-.1c-1.8 0-3.5-.5-5.1-1.4l-.4-.2-4 .9 1.1-3.9-.2-.4c-1-1.6-1.5-3.4-1.5-5.2 0-5.4 4.4-9.8 9.8-9.8 5.3 0 9.7 4.4 9.7 9.8s-4.4 9.8-9.7 9.8zm5.5-7.3c-.3-.2-1.7-.8-1.9-.9-.2-.1-.4-.1-.6.1-.2.2-.7.9-.8 1.1-.1.2-.3.2-.6.1-.3-.2-1.2-.4-2.3-1.3-.9-.8-1.4-1.7-1.6-2.1-.2-.4 0-.5.2-.6.2-.2.3-.4.5-.6.2-.1.2-.3.3-.5.1-.2 0-.4 0-.6-.1-.2-.6-1.4-.8-1.9-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.2.2-.8.8-.8 2s.8 2.3.9 2.5c.1.2 1.6 2.5 3.8 3.5.5.2.9.3 1.3.4.5.1 1 .1 1.3.1.5 0 1.4-.6 1.6-1.2.2-.6.2-1.1.1-1.2-.1-.1-.2-.2-.5-.4z"/>
             </svg>
           </a>
         </div>
@@ -84,7 +83,7 @@ const Footer = () => {
           </div>
           <div className="text-center">
             <div className="text-[#666666] text-[0.85rem] leading-relaxed">
-              ©2025 Aminu Momodu All rights reserved.
+              ©2025 Aminu Momodu. All rights reserved.
             </div>
             <div className="mt-2 text-[0.9rem] text-[#a0a0a0]">
               Built by{' '}
@@ -100,7 +99,7 @@ const Footer = () => {
           </div>
           <div className="flex flex-col items-end gap-1 max-md:items-center">
             <span className="text-white text-[0.9rem] font-medium">{formatTime(currentTime)}</span>
-            <span className="text-[#666666] text-[0.85rem]">Dubai: Sunny, 42.3°C</span>
+            <span className="text-[#666666] text-[0.85rem]">Lagos, Nigeria</span>
           </div>
         </div>
       </div>

@@ -4,24 +4,24 @@ const Experience = () => {
   const experiences = [
     {
       id: 1,
-      title: 'Executive Virtual Assistant',
-      company: 'Wegems',
-      period: '2023 - Present',
-      description: 'Owning calendar, inbox, travel, and partner coordination for founders while keeping meeting prep, notes, and follow-ups tight.'
+      title: 'Executive Support',
+      company: 'Founder & Leadership Clients',
+      period: 'Calendar & Communication',
+      description: 'Leading day-to-day executive coordination across schedules, inboxes, meetings, priorities, and follow-up systems so leaders can stay focused on decisions rather than logistics.'
     },
     {
       id: 2,
-      title: 'Automation Specialist',
-      company: 'LuminUI',
-      period: '2021 - 2023',
-      description: 'Mapping workflows, building Zapier/Make + API automations, and shipping dashboards and alerts that remove manual work.'
+      title: 'Operations Systems',
+      company: 'Notion, Google Workspace & CRM',
+      period: 'Workflow Design',
+      description: 'Building structured, reliable systems for documentation, file organization, task tracking, data upkeep, and team visibility across daily operations.'
     },
     {
       id: 3,
-      title: 'Web3 Ops & Support',
-      company: 'Ugergency',
-      period: '2019 - 2021',
-      description: 'Supporting web3 community ops, writing concise research updates, and creating onboarding/support flows that keep users safe.'
+      title: 'Project Coordination',
+      company: 'Remote & growing teams',
+      period: 'Task + Deadline Management',
+      description: 'Supporting project momentum with deadline monitoring, merchandise of updates, communication flow, and consistent progress tracking in fast-moving environments.'
     }
   ];
 
@@ -69,19 +69,19 @@ const Experience = () => {
               <div className="flex flex-col gap-[30px]">
                 <div className="grid grid-cols-[120px_1fr] gap-5 items-center pb-[30px] border-b border-[#333333] max-md:grid-cols-1 max-md:gap-2 group">
                   <span className="text-[#808080] text-[0.9rem] font-medium capitalize max-md:text-[0.85rem]">Phone</span>
-                  <a href="tel:+00399484948944" className="text-white text-base font-semibold tracking-[0.02em] no-underline transition-all duration-300 hover:text-primary hover:translate-x-1 max-md:text-[0.95rem]">+0039 9484 94894</a>
+                  <a href="tel:+2349057809092" className="text-white text-base font-semibold tracking-[0.02em] no-underline transition-all duration-300 hover:text-primary hover:translate-x-1 max-md:text-[0.95rem]">+234 905 780 9092</a>
                 </div>
                 <div className="grid grid-cols-[120px_1fr] gap-5 items-center pb-[30px] border-b border-[#333333] max-md:grid-cols-1 max-md:gap-2">
                   <span className="text-[#808080] text-[0.9rem] font-medium capitalize max-md:text-[0.85rem]">Email</span>
-                  <a href="mailto:luminUI@gmail.com" className="text-white text-base font-semibold tracking-[0.02em] no-underline transition-all duration-300 hover:text-primary hover:translate-x-1 max-md:text-[0.95rem]">luminUI@gmail.com</a>
+                  <a href="mailto:aminuassists@gmail.com" className="text-white text-base font-semibold tracking-[0.02em] no-underline transition-all duration-300 hover:text-primary hover:translate-x-1 max-md:text-[0.95rem]">aminuassists@gmail.com</a>
                 </div>
                 <div className="grid grid-cols-[120px_1fr] gap-5 items-center pb-[30px] border-b border-[#333333] max-md:grid-cols-1 max-md:gap-2">
-                  <span className="text-[#808080] text-[0.9rem] font-medium capitalize max-md:text-[0.85rem]">Website</span>
-                  <a href="https://www.luminui.com" className="text-white text-base font-semibold tracking-[0.02em] no-underline transition-all duration-300 hover:text-primary hover:translate-x-1 max-md:text-[0.95rem]" target="_blank" rel="noopener noreferrer">www.luminui.com</a>
+                  <span className="text-[#808080] text-[0.9rem] font-medium capitalize max-md:text-[0.85rem]">LinkedIn</span>
+                  <a href="https://www.linkedin.com/in/aminuassists/" className="text-white text-base font-semibold tracking-[0.02em] no-underline transition-all duration-300 hover:text-primary hover:translate-x-1 max-md:text-[0.95rem]" target="_blank" rel="noopener noreferrer">linkedin.com/in/aminuassists</a>
                 </div>
                 <div className="grid grid-cols-[120px_1fr] gap-5 items-center max-md:grid-cols-1 max-md:gap-2">
                   <span className="text-[#808080] text-[0.9rem] font-medium capitalize max-md:text-[0.85rem]">Address</span>
-                  <span className="text-white text-base font-semibold tracking-[0.02em] max-md:text-[0.95rem]">19 Southern Way, UK</span>
+                  <span className="text-white text-base font-semibold tracking-[0.02em] max-md:text-[0.95rem]">Lagos, Nigeria</span>
                 </div>
               </div>
             </div>

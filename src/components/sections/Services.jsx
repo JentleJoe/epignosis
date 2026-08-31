@@ -12,38 +12,51 @@ const Services = () => {
       subtitle: 'Keeping leaders focused',
       title: 'Executive Virtual Assistant',
       image: 'https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=800&q=80',
-      fullDescription: 'Running point on calendars, inboxes, travel, and client comms so you stay in control and on time. I standardize how your week runs, keep stakeholders updated, and protect your focus time.',
+      fullDescription: 'Providing reliable support for founders, executives, and growing businesses with calendar coordination, meeting preparation, inbox management, and structured follow-through that protects time and momentum.',
       details: [
-        'Daily briefings, inbox triage, and meeting prep',
-        'Calendar control, travel, and logistics',
-        'Vendor/client comms, notes, and follow-ups',
-        'SOPs, documentation, and status reporting'
+        'Calendar management and scheduling',
+        'Inbox triage and prioritized follow-ups',
+        'Meeting prep and stakeholder coordination',
+        'Task tracking and status reporting'
       ]
     },
     {
       id: 2,
-      subtitle: 'Systems that run themselves',
-      title: 'Automation Specialist',
+      subtitle: 'Clear systems behind the scenes',
+      title: 'Notion, ClickUp & Project Support',
       image: workflowImage,
-      fullDescription: 'Designing and shipping low-code automations that remove manual steps across your stack. I connect tools, clean data, and add guardrails so ops stay reliable at scale.',
+      fullDescription: 'Creating organized project workspaces, keeping deadlines visible, and managing day-to-day progress across tools like Notion, Trello, ClickUp, Asana, and Monday.com so teams stay aligned.',
       details: [
-        'Workflow mapping and service blueprints',
-        'Zapier / Make / n8n + API integrations',
-        'Data hygiene, routing, and deduping',
-        'Monitors, alerts, and QA fail-safes'
+        'Workspace setup and optimization',
+        'Task management and deadline monitoring',
+        'Team coordination and updates',
+        'Progress tracking and documentation'
       ]
     },
     {
       id: 3,
-      subtitle: 'Bridging onchain and ops',
-      title: 'Web 3 Enthusiast',
-      image: 'https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=800&q=80',
-      fullDescription: 'Supporting community and ops for web3 teams with concise research, safe onboarding, and lightweight automations that keep supporters engaged.',
+      subtitle: 'Data and communication flow',
+      title: 'CRM & Administrative Operations',
+      image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&q=80',
+      fullDescription: 'Keeping essential records accurate and accessible, from CRM updates and spreadsheet organization to document preparation and communication follow-up across business operations.',
       details: [
-        'Community ops playbooks and moderation',
-        'Onboarding, FAQ, and support workflows',
-        'Ecosystem research and weekly recaps',
-        'Wallet safety guidance and automation checks'
+        'Accurate data entry and CRM updates',
+        'Spreadsheet organization and reporting',
+        'Document prep and file structure',
+        'Administrative support across workflows'
+      ]
+    },
+    {
+      id: 4,
+      subtitle: 'Travel and logistics',
+      title: 'Travel & Business Coordination',
+      image: 'https://images.unsplash.com/photo-1527631746610-bca00a040d60?w=800&q=80',
+      fullDescription: 'Handling travel plans, logistics, and scheduling details so executives can move confidently between meetings, events, and time-sensitive commitments.',
+      details: [
+        'Travel planning and coordination',
+        'Appointment setting and scheduling',
+        'Vendor and stakeholder communications',
+        'Operational logistics and reminders'
       ]
     }
   ];
