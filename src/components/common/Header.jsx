@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 const Header = ({ onNavClick }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -42,7 +43,7 @@ const Header = ({ onNavClick }) => {
           </button>
 
           {/* Desktop Navigation */}
-          <nav className="flex gap-[45px] max-lg:hidden">
+          <nav className="flex items-center gap-[30px] max-lg:hidden">
             {navLinks.map((link) => (
               <a 
                 key={link.id}
@@ -52,6 +53,12 @@ const Header = ({ onNavClick }) => {
                 {link.label}
               </a>
             ))}
+            <Link
+              to="/portfolio"
+              className="rounded-full border border-primary/40 bg-primary/10 px-4 py-2 text-[0.75rem] font-semibold uppercase tracking-[0.15em] text-primary transition hover:bg-primary hover:text-white"
+            >
+              Portfolio
+            </Link>
           </nav>
         </div>
       </header>
