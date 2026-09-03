@@ -8,6 +8,7 @@ import Experience from './components/sections/Experience'
 import Education from './components/sections/Education'
 import Services from './components/sections/Services'
 import FAQ from './components/sections/FAQ'
+import Testimonials from './components/sections/Testimonials'
 import Contact from './components/sections/Contact'
 import PortfolioPage from './pages/PortfolioPage'
 
@@ -27,6 +28,7 @@ function App() {
                 <Experience />
                 <Education />
                 <Services />
+                <Testimonials />
                 <FAQ />
                 <Contact />
               </main>
